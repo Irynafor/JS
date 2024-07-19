@@ -1,22 +1,22 @@
 {
-	"users": [
-	{
-	"firstName": "Raghav",
-	"lastName": "Pal",
-	"subjectId": 1,
-	"Id": 1
-	},
-	{
-	"firstName": "Henry",
-	"lastName": "Ford",
-	"subjectId": 2,
-	"Id": 2
-	},
-    {
-        "firstName": "Albert",
-        "lastName": "Einstein",
-        "subjectId": 1,
-        "Id": 3
+    "users": [
+        {
+            "firstName": "Raghav",
+            "lastName": "Pal",
+            "subjectId": 1,
+            "Id": 1
+        },
+        {
+            "firstName": "Henry",
+            "lastName": "Ford",
+            "subjectId": 2,
+            "Id": 2
+        },
+        {
+            "firstName": "Albert",
+            "lastName": "Einstein",
+            "subjectId": 1,
+            "Id": 3
         }
-]
+    ]
 }
