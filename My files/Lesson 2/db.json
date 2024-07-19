@@ -21,12 +21,16 @@
     ],
     "subjects": [
         {
-            "name": "Automation",
-            "subjectsId": 1
+            "firstName": "Raghav",
+            "lastName": "Pal",
+            "subjectsId": 1,
+            "id": 1
         },
         {
-            "name": "DevOps",
-            "subjectsId": 2
+            "firstName": "Henry",
+            "lastName": "Ford",
+            "subjectsId": 2,
+            "id": 2
         }
     ]
 }
