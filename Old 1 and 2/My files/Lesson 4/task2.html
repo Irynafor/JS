@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let initialValue = "І що сало ласощі";
+        let value = initialValue.replace(/\s+/g, "").toLowerCase();
+
+        let len = value.length; // 6
+        console.log(len);
+
+        let isPalindrome;
+        for (let i = 0; i < len / 2; i++) {
+            if (value[i] !== value[len - 1 - i]) {
+                isPalindrome = false;
+                break;
+            }
+            isPalindrome = true;
+        }
+
+        if (isPalindrome) {
+            console.log("Значення " + initialValue+ " Є паліндромом");
+        }
+        else {
+            console.log("Значення " + initialValue + " НЕ є паліндромом");
+        }
+
+
+    </script>
+</body>
+
+</html>
